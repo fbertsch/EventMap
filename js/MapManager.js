@@ -187,7 +187,7 @@ var MapManager = (function($, d3, leaflet) {
           iconUrl: '//dcxc7a0ls04u1.cloudfront.net/img/icon/gotv-star.png',
           iconSize:     [13, 10], // size of the icon
       });
-      var defaultCoord = options&&options.defaultCoord ? options.defaultCoord : {center: [37.8, -96.9], zoom: 4};
+      var defaultCoord = options&&options.defaultCoord ? options.defaultCoord : {center: [41.591204,	-93.603755], zoom: 8};
 
       var centralMap =  new leaflet
                             .Map("map-container", window.customMapCoord ? window.customMapCoord : defaultCoord)
